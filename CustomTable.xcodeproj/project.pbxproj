@@ -37,6 +37,7 @@
 		35F22FF718C0AAB800671DC0 /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35F22FE718C0AAB800671DC0 /* thai_shrimp_cake.jpg */; };
 		35F22FF818C0AAB800671DC0 /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35F22FE818C0AAB800671DC0 /* vegetable_curry.jpg */; };
 		35F22FF918C0AAB800671DC0 /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35F22FE918C0AAB800671DC0 /* white_chocolate_donut.jpg */; };
+		35F22FFC18C2988B00671DC0 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F22FFB18C2988B00671DC0 /* CustomTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,8 @@
 		35F22FE718C0AAB800671DC0 /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
 		35F22FE818C0AAB800671DC0 /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
 		35F22FE918C0AAB800671DC0 /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		35F22FFA18C2988B00671DC0 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		35F22FFB18C2988B00671DC0 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				35F22FB918C0A07E00671DC0 /* CustomTableViewController.m */,
 				35F22FBB18C0A07E00671DC0 /* Images.xcassets */,
 				35F22FAA18C0A07E00671DC0 /* Supporting Files */,
+				35F22FFA18C2988B00671DC0 /* CustomTableCell.h */,
+				35F22FFB18C2988B00671DC0 /* CustomTableCell.m */,
 			);
 			path = CustomTable;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 				35F22FB418C0A07E00671DC0 /* CustomTableAppDelegate.m in Sources */,
 				35F22FBA18C0A07E00671DC0 /* CustomTableViewController.m in Sources */,
 				35F22FB018C0A07E00671DC0 /* main.m in Sources */,
+				35F22FFC18C2988B00671DC0 /* CustomTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
