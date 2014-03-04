@@ -14,6 +14,7 @@
     NSArray *recipeNames;
     NSArray *prepTimes;
     NSArray *recipeImages;
+    BOOL recipeChecked[16];
 }
 
 @end
@@ -32,6 +33,7 @@
     
     
     [self.tableView setContentInset:UIEdgeInsetsMake(20, self.tableView.contentInset.left, self.tableView.contentInset.bottom, self.tableView.contentInset.right)];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -55,7 +57,37 @@
     cell.nameLabel.text = [recipeNames objectAtIndex:indexPath.row];
     cell.prepTimeLabel.text = [prepTimes objectAtIndex:indexPath.row];
     cell.thumbnailImageView.image = [UIImage imageNamed:[recipeImages objectAtIndex:indexPath.row]];
+    
+    if (recipeChecked[indexPath.row]) {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    } else {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    }
+    
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UIAlertView *checked = [[UIAlertView alloc] initWithTitle:@"" message:@"チェックしました！" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+    UIAlertView *unChecked = [[UIAlertView alloc] initWithTitle:@"" message:@"チェックを外しました" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+ 
+
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    
+    if (recipeChecked[indexPath.row]) {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+        recipeChecked[indexPath.row] = NO;
+        [unChecked show];
+    } else {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+        recipeChecked[indexPath.row] = YES;
+        [checked show];
+    }
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>94CC2E62-A238-4579-B370-BBB02CF39AB9</string>
+	<string>F127DD97-E4B7-4699-B7F4-B1E934748C93</string>
 	<key>IDESourceControlProjectName</key>
 	<string>CustomTable</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>012F911B-A6F0-4DEE-B8F7-08C94B32793B</key>
+		<string>https://github.com/naoyawatanabe/CustomTable.git</string>
 		<key>75C23CEC-C65D-46D5-8F4D-CD3E4C898272</key>
 		<string>ssh://github.com/naoyawatanabe/iOS.git</string>
 	</dict>
@@ -17,17 +19,27 @@
 	<string>CustomTable/CustomTable.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>012F911B-A6F0-4DEE-B8F7-08C94B32793B</key>
+		<string>../..</string>
 		<key>75C23CEC-C65D-46D5-8F4D-CD3E4C898272</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/naoyawatanabe/iOS.git</string>
+	<string>https://github.com/naoyawatanabe/CustomTable.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>75C23CEC-C65D-46D5-8F4D-CD3E4C898272</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>012F911B-A6F0-4DEE-B8F7-08C94B32793B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomTable</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
